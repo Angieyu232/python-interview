@@ -1,6 +1,14 @@
 # Learning Python 
 
-## Notes 
+#### Basic build-in and data types
+
+- Numeric Types — int, float, complex
+- // --> floor quotient of x and y
+- divmod(x, y) --> (x//y, x%y)
+- both x ** y and pow(x, y) --> x to the power y
+
+
+### Notes 
 
 ```python
 str1 = "welcome"
