@@ -14,7 +14,12 @@ returns: 6 bananas cost $1.74
 ```
 
 ### Basic structures
-Python has six built-in types of sequences, but the most common ones are lists and tuples.
+Python has six built-in types of sequences, but the most common ones are *list* and *tuple*.
+
+The function of list and tuple is pretty much identicy, except for
+- tuple use parentheses (()) instead of square brackets ([])
+- tuple is immutable, meaning, you can't assign a value tuple[3] = newValue
+
 
  #### List:
 ```python
@@ -98,8 +103,54 @@ while index < len(names):
 - import specific items into current namespace
     > from modulename import specific
 
+### Package
+A package is a collection of modules
+
+- installing from a list of packages:
+    > pip install -r requirement.txt
+- list outdated packages:
+    > pip list --outdated
+- upgrade a package:
+    > pip install --upgrade packageName
+- pip uninstall a package
+    > pip uninstall packageName
 
 
+python install all package globally, to make a package installed locally, a virtual environment is needed
+
+## Virtual Environments
+
+Virtualenv allow you to install packages into an isolated folder. This allows you to better manage versions.
+
+<folder_name>/bin/activate
+
+#### Usage
+1. To open up a virtual env in your project
+```console
+$ cd my-project/
+$ virtualenv venv
+```
+2. after the venv/ folder been created , need to activate with
+```console
+source venv/bin/activate
+```
+3. The terminal console should have a **(venv)** before your Username %
+```console
+(venv) username@YourLaptopName %
+```
+4. install virtual local packages
+```
+pip install -r requirements.txt
+```
+5. To deactivate: Just run **deactivate**
+
+
+#### Notes on Virtual Env
+
+**Important**: Remember to add venv to your project's .gitignore file so you don't include all of that in your source code.
+
+It is preferable to install big packages (like Numpy), or packages you always use (like IPython) globally.
+All the rest can be installed in a virtualenv.
 
 
 
