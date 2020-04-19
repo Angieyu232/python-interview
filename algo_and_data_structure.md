@@ -6,10 +6,23 @@ linked list and array. Tree, graph, Hash table, Queue, Stack, alll of them can b
 - LeetCode Explore hase a Learn section, features Array and linkedlist
 - Github Repo: fucking-algorithm
 
+
+
 ## Linked List
 
 
 ## Array
+
+## Stack && Queue
+In python, list can be used to implement stack and queue structure with build-in methods
+
+```python
+
+
+```
+
+To implement a **queue**, use collections.deque which was designed to have fast appends and pops from both ends. For example:
+
 
 
 
