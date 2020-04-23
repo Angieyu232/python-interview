@@ -1,4 +1,6 @@
-# Learning Python
+# Learning Python The Soft Way
+
+
 
 #### Basic build-in
 
@@ -163,3 +165,5 @@ There are two common ways of storing these variables
 - import os
 - os.getenv()
 - from dotenv import load_dotenv
+
+**Reference Microsoft's Python Beginner Course**
