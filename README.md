@@ -154,3 +154,12 @@ All the rest can be installed in a virtualenv.
 
 
 
+### Setting Up Environment Variable with Python project
+Avoid display your keys and password and sentitive information by storing environmental variable.
+There are two common ways of storing these variables
+1. set the global env in your shell, depends on what shell you use, zsh shell stores in ~/.zshenv
+2. use dotenv and store things in a .env file in the project folder and add .env in gitignore
+
+- import os
+- os.getenv()
+- from dotenv import load_dotenv
