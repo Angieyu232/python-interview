@@ -53,3 +53,11 @@ We scan through the tree level by level, following the order of height, from top
 - Inorder (Left, Root, Right)
 - Preorder (Root, Left, Right)
 - Postorder (Left, Right, Root)
+
+For level based BFS searching a binary tree, queue is recommended in leetcode.
+
+For mathematicall expressing, postorder is often used to parse numbers and operators.
+The numbers are stored in child while the parent store operators.
+
+
+
