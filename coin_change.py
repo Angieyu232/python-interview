@@ -11,6 +11,7 @@ Time complexitu: size of coin list * amount, assume n means amount, O(n**2)
   On each step the algorithm finds the next F(i)F(i) in nn iterations, where 1\leq i \leq S1≤i≤S. Therefore in total the iterations are S*nS∗n.
 Space complexity : O(S)O(S). We use extra space for the memoization table.
 
+  金额从小到大，去掉一个硬币之后，剩下的余额可以选择 min (F(S-C0), F(S-C1), F(S-C3), ... )
 '''
 
 class Solution:
