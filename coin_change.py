@@ -32,6 +32,13 @@ class Solution:
 
 
         return dp[amount] if dp[amount] != float('inf') else -1
+      
+      
+  '''
+  You are given coins of different denominations and a total amount of money. 
+  Write a function to compute the number of combinations that make up that amount. 
+  You may assume that you have infinite number of each kind of coin.
+  '''
 
   #corner case, if there is no way to solve the change, returnn 0
     def coin_change2(self, amount: int, coins: List[int]) -> int:
