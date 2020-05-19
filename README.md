@@ -1,9 +1,5 @@
 # Learning Python The Soft Way
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 9c8fb0143a6d4472f94483669c69e123d4ce3758
 
 #### Basic build-in
 
@@ -169,8 +165,6 @@ There are two common ways of storing these variables
 - os.getenv()
 - from dotenv import load_dotenv
 
-<<<<<<< HEAD
 
-=======
 **Reference Microsoft's Python Beginner Course**
->>>>>>> 9c8fb0143a6d4472f94483669c69e123d4ce3758
+
